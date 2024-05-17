@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Modul_8_homework"
+version = "0.1.0"
+description = "homework"
+authors = ["Ryszard Kozik <wingeriche@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.29"
+pymongo = {extras = ["srv", "tls"], version = "^4.7.2"}
+asyncpg = "^0.29.0"
+mongoengine = "^0.28.2"
+celery = "^5.4.0"
+redis = "^5.0.4"
+pika = "^1.3.2"
+redis-lru = "^0.1.2"
+dnspython = "^2.6.1"
+faker = "^25.2.0"
